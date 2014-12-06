@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layout_dealDetails"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="2dp"
+    android:background="@drawable/backimage"
+   >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageDetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="5dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textMerchantDetail"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_action_bar_default_height"
+        android:text="HHHHHHHHH"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textMerchantDetail"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:id="@+id/textShortTitleDetail"
+        android:layout_marginLeft="5dp"
+        android:text="AAAAAAAAAA"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textShortTitleDetail"
+        android:id="@+id/textPriceDetail"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="BBBBBBBBB"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textSavingsDetail"
+        android:layout_below="@id/textPriceDetail"
+        android:layout_marginLeft="5dp"
+        android:text="HHHHHHHHH"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textOfferEndDetail"
+        android:layout_below="@id/textSavingsDetail"
+        android:layout_marginLeft="5dp"
+        android:text="HHHHHHHHH"/>
+
+</RelativeLayout>

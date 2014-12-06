@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LivingSocial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_action_bar_search">ActionBarSearch</string>
+    <string name="searchHint">Zip code</string>
+    <string name="search">Search deals</string>
+    <string name="whichCountry">Country</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="chooseCity">Choose City</string>
+    <string name="currentCountry">United States</string>
+
+</resources>
